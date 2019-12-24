@@ -2,11 +2,12 @@
 import express from 'express';
 import bodyParser from 'body-parser';
 import { MongoClient } from 'mongodb';
+import mongoose from 'mongoose';
 import path from 'path';
 
 require('dotenv').config();
 
-const uri = process.env.MONGOLAB_URI;
+const uri = process.env.MONGODB_URI || 'mongodb://localhost:27017/my-blog';
 const port = process.env.PORT || 5000;
 
 // [
