@@ -8,7 +8,7 @@
     "devstart": "npx nodemon --exec npx babel-node server.js",
     "build-babel": "babel -d ./build ./src -s",
     "build": "npm run clean && npm run build-babel",
-    "start": "babel-node ./build/index.js",
+    "start": "node ./build/index.js",
     "heroku-postbuild": "cd client && npm install && npm run build"
   },
   "keywords": [],
@@ -28,6 +28,7 @@
     "@babel/core": "^7.4.3",
     "@babel/node": "^7.2.2",
     "@babel/preset-env": "^7.4.3",
+    "babel-loader": "^8.0.6",
     "nodemon": "^1.18.11"
   },
   "engines": {
