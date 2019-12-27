@@ -40,7 +40,7 @@ const withDB = async (operations, res) => {
       useNewUrlParser: true,
       useUnifiedTopology: true
     });
-    const db = client.db('my-blog');
+    const db = client.db('heroku_g12nmcbw');
     await operations(db);
 
     client.close();
