@@ -1,8 +1,8 @@
 body {
- 
+
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 20px;
-  padding-left: 3em;
+  padding-left: 1em;
 }
 
 button {
@@ -27,7 +27,8 @@ h1 {
   top: 0;
 }
 
-h3, h4 {
+h3,
+h4 {
   margin-bottom: 0;
 }
 
@@ -41,7 +42,7 @@ nav {
   position: fixed;
   top: 0;
   width: 100%;
-  background-color:grey;
+  background-color: grey;
 }
 
 nav ul {
@@ -98,7 +99,8 @@ nav a:hover {
   margin-bottom: 16px;
 }
 
-#add-comment-form input, textarea {
+#add-comment-form input,
+textarea {
   display: block;
   width: 300px;
   padding: 8px;
@@ -113,10 +115,11 @@ nav a:hover {
   width: 320px;
 }
 
-#upvotes-section button, p {
+#upvotes-section button,
+p {
   display: inline-block;
   margin-right: 16px;
-  
+
 }
 
 .comment {
@@ -125,7 +128,7 @@ nav a:hover {
 }
 
 img {
-  
+
   float: left;
   padding-top: 30px;
   filter: brightness(2.6);

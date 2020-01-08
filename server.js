@@ -10,7 +10,7 @@ const uri =
   process.env.MONGODB_URI || 'mongodb://localhost:27017/heroku_hq0frgvm';
 
 const app = express();
-// app.use(express.static(path.join(__dirname, '/client/build')));
+
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
