@@ -1,35 +1,16 @@
-/* eslint-disable no-unused-expressions */
-import express from 'express';
-import bodyParser from 'body-parser';
-import { MongoClient } from 'mongodb';
-import mongoose from 'mongoose';
-import path from 'path';
+const express = require('express');
+const bodyParser = require('body-parser');
+const { MongoClient } = require('mongodb');
+const mongoose = require('mongoose');
+const path = require('path');
 
 require('dotenv').config();
 
-const uri = process.env.MONGODB_URI || 'mongodb://localhost:27017/my-blog';
+const uri =
+  process.env.MONGODB_URI || 'mongodb://localhost:27017/heroku_hq0frgvm';
 const port = process.env.PORT || 5000;
 
-// [
-//   {
-//     name: 'learn-react',
-//     upvotes: 0,
-//     comments: []
-//   },
-//   {
-//     name: 'learn-node',
-//     upvotes: 0,
-//     comments: []
-//   },
-//   {
-//     name: 'my-thoughts-on-resumes',
-//     upvotes: 0,
-//     comments: []
-//   }
-// ];
-
 const app = express();
-
 app.use(express.static(path.join(__dirname, '/client/build')));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
@@ -40,15 +21,13 @@ const withDB = async (operations, res) => {
       useNewUrlParser: true,
       useUnifiedTopology: true
     });
-    const db = client.db('heroku_g12nmcbw');
+    const db = client.db('heroku_36qnrfsm');
     await operations(db);
-
     client.close();
   } catch (error) {
     res.status(500).json({ message: 'Error connecting to db', error });
   }
 };
-
 app.get('/api/articles/:name', async (req, res) => {
   withDB(async db => {
     const articleName = req.params.name;
