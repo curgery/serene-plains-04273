@@ -24,7 +24,7 @@ const AboutPage = () => (
       <br />
       Blog/CV:
       <br />
-      <a href='https://calm-falls-63576.herokuapp.com/'>
+      <a href='https://serene-plains-04273.herokuapp.com/'>
         https://rlglover.com/
       </a>
       <br />
@@ -73,14 +73,14 @@ const AboutPage = () => (
     </li>
     <br />
     <h4>Notable Contractor Projects and Clients:</h4>
-    <ul></ul>
+    <ul />
     <li>AT&T FOUNDATION: Philanthropy Administation, Gift for Windows</li>
     <li>WINSTON AGENCY: Employee Administration Dashboard</li>
     <li>SIEMPRE ENERGY: Frontend Remote Subsidiary Administration</li>
     <li>HACHETTE FILLIPACHI: Accounting Frontend Management </li>
     <h4>Technology Applications and Expertise</h4>
     <h5>Specialized Skills</h5>
-    <ul></ul>
+    <ul />
     User Interface Design, User Testing, Front End Web Development,& Digital
     Publishing Workflows
     <h5>Publishing Platforms</h5>
