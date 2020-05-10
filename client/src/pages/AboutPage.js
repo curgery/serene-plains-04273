@@ -24,9 +24,7 @@ const AboutPage = () => (
       <br />
       Blog/CV:
       <br />
-      <a href='https://serene-plains-04273.herokuapp.com/'>
-        https://rlglover.com/
-      </a>
+      <a href='http://rlglover.com/'>https://rlglover.com/</a>
       <br />
     </p>
     <ul>
@@ -36,7 +34,7 @@ const AboutPage = () => (
         publishing, communications, brand expansion and business strategies.
       </h4>
     </ul>
-    <h3>Degrees</h3>
+    <h3>Education</h3>
     <li>
       - Bronx Community College, Montefiore Enhanced HIT Analyst Certificate in
       Clinical Looking Glass (CLG) Big Data, June 2014, Bronx, NY 10453.
