@@ -15,7 +15,7 @@ const NavBar = () => (
     <h2>RLG GEO MOBILE</h2>
     <ul>
       <li>
-        <Link to='/'>R.L. Glover, Founder</Link>
+        <Link to='/'>R.L. Glover</Link>
       </li>
       <li>
         <Link to='/articles-list'>Articles</Link>
