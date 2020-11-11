@@ -20,7 +20,7 @@ const withDB = async (operations, res) => {
       useNewUrlParser: true,
       useUnifiedTopology: true
     });
-    const db = client.db('heroku_36qnrfsm');
+    const db = client.db('cvDatabase');
     await operations(db);
     client.close();
   } catch (error) {
