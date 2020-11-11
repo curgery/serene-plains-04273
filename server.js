@@ -7,9 +7,9 @@ const path = require('path');
 require('dotenv').config();
 
 const uri =
-  process.env.MONGODB_URI || 'mongodb://localhost:27017/heroku_hq0frgvm';
+  process.env.MONGODB_URI || 'lyrical-songs.c4knq.mongodb.net:27017';
 
-const app = express();
+  const app = express();
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
