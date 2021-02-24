@@ -84,7 +84,7 @@ const AboutPage = () => (
     User Interface Design, User Testing, Front End Web Development,& Digital
     Publishing Workflows.
     <h5>Working Languages</h5>
-    Javascript, React, React Native, Jekyll, GatsbyJS, Prisma & Django.
+    Javascript, React, React Native, Jekyll, GatsbyJS, Apollo, Prisma & Django.
     <h5>Publishing Platforms</h5>
     Heroku, Vercel, AWS, React Native with Expo, & Github Pages.
     <h5>IDE Environment(s)</h5>
