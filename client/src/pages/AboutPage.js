@@ -24,7 +24,9 @@ const AboutPage = () => (
       <br />
       Blog/CV:
       <br />
-      <a href='http://rlglover.com/'>https://rlglover.com/</a>
+      <a href='https://calm-falls-63576.herokuapp.com/'>
+        https://rlglover.com/
+      </a>
       <br />
     </p>
     <ul>
@@ -34,7 +36,7 @@ const AboutPage = () => (
         publishing, communications, brand expansion and business strategies.
       </h4>
     </ul>
-    <h3>Education</h3>
+    <h3>Education:</h3>
     <li>
       - Bronx Community College, Montefiore Enhanced HIT Analyst Certificate in
       Clinical Looking Glass (CLG) Big Data, June 2014, Bronx, NY 10453.
@@ -47,10 +49,10 @@ const AboutPage = () => (
       - Manhattan College, Bachelor of Science, Business Administration , June
       1982, Riverdale, NY 10471
     </li>
-    <h3>Professional Employment</h3>
+    <h3>Work History Employment</h3>
     <span>
       Contract Officer, USPS/Operations Programs Support, White Plains, NY
-      10610-9997, November 1985 – October 2015
+      10610-9997, November 1985 – October 2014
     </span>
     <br />
     <br />
@@ -74,25 +76,27 @@ const AboutPage = () => (
     <ul />
     <li>AT&T FOUNDATION: Philanthropy Administation, Gift for Windows</li>
     <li>WINSTON AGENCY: Employee Administration Dashboard</li>
-    <li>SIEMPRE ENERGY: Frontend Remote Subsidiary Administration</li>
+    <li>SIEMPRE ENERGY: Frontend Remote Subsidiary Administration UXI</li>
     <li>HACHETTE FILLIPACHI: Accounting Frontend Management </li>
-    <h4>Technology Applications and Expertise</h4>
+    <h4>Technology Applications and Expertise:</h4>
     <h5>Specialized Skills</h5>
     <ul />
     User Interface Design, User Testing, Front End Web Development,& Digital
-    Publishing Workflows
+    Publishing Workflows.
+    <h5>Working Languages</h5>
+    Javascript, React, React Native, Jekyll, GatsbyJS, Prisma & Django.
     <h5>Publishing Platforms</h5>
-    Jekyll, GatsbyJS, ReactJS, React Native with Expo, Github Pages
-    <h5>Applications</h5>
-    Visual Studio Code, Microsoft Office Google Drive, Windows Subsytem for
-    Linux
+    Heroku, Vercel, AWS, React Native with Expo, & Github Pages.
+    <h5>IDE Environment(s)</h5>
+    Visual Studio Code, Eclipse, IntelliJ IDEA & PyCharm.
     <h5>OS/Environments</h5>
     Windows, Linux, Ubuntu, & Mac
     <h5>Markup/Programming</h5>
-    JavaScript, HTML5, CSS, CSS3, Bootstrap, Awesome Fonts, Ruby/Rails, XML,
-    MySQL, Postgres, MongoDB, & GraphQL
+    MaterialUI, HTML5, CSS, CSS3, Bootstrap, Awesome Fonts, Ruby/Rails.
+    <h5>Developer & Working Databases</h5>
+    MySQL, Postgres, MongoDB Atlas, & GraphQL.
     <h5>Version Control</h5>
-    Git, GitHub, CVS
+    Git, GitHub, CVS, Vercel, & Heroku.
   </>
 );
 

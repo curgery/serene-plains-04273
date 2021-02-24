@@ -1,8 +1,8 @@
 /* eslint-disable jsx-a11y/anchor-has-content */
 import React from 'react';
 import { Link } from 'react-router-dom';
-import IMG from './pages/img/IMG_1224.JPG';
-// import { ReactComponent as Logo } from './logo.svg';
+import IMG from './pages/img/IMG_3044.JPG';
+
 const NavBar = () => (
   <nav>
     <img
@@ -10,9 +10,8 @@ const NavBar = () => (
       alt='avatar'
       width={125}
       height={135}
-      style={{ transform: 'rotate(360deg)'}}
+      style={{ transform: 'rotate(360deg)' }}
     />
-    <h2>RLG GEO MOBILE</h2>
     <ul>
       <li>
         <Link to='/'>R.L. Glover</Link>

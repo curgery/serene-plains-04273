@@ -22,7 +22,7 @@ p {
 h1 {
   padding-top: 0;
   text-align: left;
-  color: rgb(76, 0, 255);
+  color: purple;
   top: 0;
 }
 
@@ -42,6 +42,7 @@ nav {
   top: 0;
   width: 100%;
   background-color: grey;
+  background-image: url('../src/pages/img/wu-yi-hzdrZ3fUdu0-unsplash.jpg')
 }
 
 nav ul {
@@ -63,9 +64,10 @@ nav li {
 
 nav a {
   text-decoration: none;
-  color: black;
+  color: purple;
   font-weight: bold;
   padding: 16px 32px;
+  font-size: 35px;
 }
 
 nav a:hover {
@@ -131,7 +133,7 @@ img {
   float: left;
   padding-top: 30px;
   filter: brightness(2.6);
-  border-radius: 50%;
+  border-radius: 60%;
   margin: 0px 15px 15px 0px;
 }
 

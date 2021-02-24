@@ -4,9 +4,10 @@ import SocialMedia from '../components/SocialMedia';
 
 const HomePage = () => (
   <>
-    <SocialMedia />
-    <h1>Robert L. Glover, Full-Stack Developer</h1>
+    <h1>Robert L. Glover, Full-Stack Engineer</h1>
     <h3>The Future of Web & Application Development </h3>
+    <SocialMedia />
+
     <p>
       Prophesizing is no easy task — when looking at social phenomena (and web
       development is a social phenomenon), one knows well not to expect a simple
