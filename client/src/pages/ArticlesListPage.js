@@ -6,8 +6,9 @@ import articleContent from './article-content';
 
 const ArticlesListPage = () => (
   <>
-    <SocialMedia />
     <h1>Articles</h1>
+    <SocialMedia />
+
     <ArticlesList articles={articleContent} />
   </>
 );
