@@ -50,10 +50,9 @@ const AboutPage = () => (
     </ul>
     <h3>Education:</h3>
     <li>
-      - Montefiore Certification in Clinical Looking Glass (CLG) Big Data,
-      Health Information Technology (HIT) Analyst Certification, Clinical
-      Looking Glass (CLG) Big Data for Medical Systems, June 2014, Bronx, NY
-      10453.
+      - Montefiore Health Information Technology (HIT) Analyst Certification in
+      Big Data, Clinical Looking Glass (CLG), Health Information Technology
+      Medical Systems, June 2014, Bronx, NY 10453.
     </li>
     <li>
       - Skidmore College, Master’s Certificate, Computer Interfaces , June 2005,
