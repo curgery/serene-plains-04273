@@ -161,7 +161,7 @@ const AboutPage = () => (
     MongoDB Atlas, & GraphQL. Extensive experience with ORM (Object Relational
     Mapper) middleware for back-end system integration.
     <h5>Version Control:</h5>
-    Git, GitHub, CVS, Vercel, & Heroku.
+    Git, GitHub, CVS, Vercel, Postman, Newman with CI/CD, Gitlab & Heroku.
     <br />
     <br />
   </>
